@@ -1,0 +1,124 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #006400;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.main-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+table {
+	margin: 1rem;
+}
+
+table th td,
+table tr td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+form {
+	margin: 1rem;
+}
+
+input {
+	line-height: 1.4rem;
+	margin-left: 1rem;
+}
+
+h5 {
+	display: block;
+}
+
+form button {
+	line-height: 1.4rem;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.cities-wrapper {
+	border: 1px solid black;
+	margin: 1rem;
+	padding: 1rem;
+	align-items: flex-end;
+	height: fit-content;
+}
+
+ul {
+	float: center;
+	margin-top: 0;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shelf-wrapper {
+	text-align: left;
+	display: flex;
+	justify-content: center;
+}
+
+.shelf-wrapper h4 {
+	text-align: center;
+}
+
+.shelf-wrapper .shelf {
+	width: 19%;
+	border: 1px solid black;
+	display: inline-block;
+	min-height: 15rem;
+}
+
+.shelf span {
+	/* width: 60%; */
+}
+
+.shelf button {
+	float: right;
+	/* width: 40%; */
+}
+
+.book-wrapper span {
+	width: 100%;
+}
+
+.shelf table tr td {
+	border: none;
+}
